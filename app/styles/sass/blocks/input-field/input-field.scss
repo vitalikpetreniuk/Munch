@@ -1,0 +1,26 @@
+.input-field {
+  display: flex;
+  label {
+    font-size: 13px;
+    line-height: 17px;
+    min-width: 80px;
+    margin: 0 14px 0 0;
+    text-align: left;
+  }
+  input {
+    border: 1px solid #CBD4E7;
+    border-radius: 2px;
+    padding: 14px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 17px;
+    max-width: 582px;
+    width: 100%;
+    @include media-max(480) {
+      font-size: 13px;
+    }
+    &:focus {
+      border: 1px solid #141517;
+    }
+  }
+}

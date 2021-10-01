@@ -1,0 +1,15 @@
+.date-picker {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 700;
+  max-width: 676px;
+  width: 100%;
+  background: #F6F9FF;
+  max-height: 380px;
+  height: 380px;
+  @include media-max(768) {
+    height: 280px;
+  }
+}

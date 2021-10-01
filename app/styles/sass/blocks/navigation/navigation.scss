@@ -1,0 +1,15 @@
+.navigation {
+  &__container {
+    display: flex;
+    justify-content: center;
+  }
+  .btn {
+    &:first-of-type {
+      margin-right: 50px;
+      @include media-max(480) {
+        margin-right: 16px;
+      }
+    }
+    &:last-of-type {}
+  }
+}

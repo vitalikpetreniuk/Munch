@@ -1,0 +1,17 @@
+.form {
+  width: 100%;
+  margin: 67px 0 84px 0;
+  @include media-max(768) {
+    margin: 45px 0 51px 0;
+  }
+  &__container {}
+  &__field {
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    &:not(:last-of-type) {
+      margin-bottom: 34px;
+    }
+  }
+}

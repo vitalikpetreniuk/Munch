@@ -1,0 +1,39 @@
+.date-input {
+  display: flex;
+  align-items: center;
+  span {
+    font-size: 13px;
+    line-height: 17px;
+    margin-right: 45px;
+    @include media-max(480) {
+      margin-right: 34px;
+    }
+  }
+  div {
+    position: relative;
+    input {
+      cursor: pointer;
+      padding: 0 45px 0 14px;
+      max-width: 288px;
+      width: 100%;
+      height: 46px;
+      background: #FFFFFF;
+      border: 1px solid #CBD4E7;
+      border-radius: 2px;
+      font-weight: 600;
+      font-size: 15px;
+      @include media-max(480) {
+        font-size: 13px;
+        max-width: 216px;
+        height: 44px;
+      }
+    }
+    img {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      right: 16px;
+      transform: translate(0, -50%);
+    }
+  }
+}

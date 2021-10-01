@@ -1,0 +1,25 @@
+.switcher-buttons {
+  background: #E0E7F6;
+  display: flex;
+  width: fit-content;
+  .btn {
+    word-break: break-word;
+    font-size: 15px;
+    background: transparent;
+    min-width: 191px;
+    padding: 0 20px;
+    height: auto;
+    min-height: 48px;
+    @include media-max(480) {
+      min-width: 150px;
+    }
+    &.active {
+      background: #38D900;
+      font-weight: 600;
+      font-size: 16px;
+      color: #FFFFFF;
+    }
+    &:first-of-type {}
+    &:last-of-type {}
+  }
+}

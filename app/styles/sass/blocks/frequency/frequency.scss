@@ -1,0 +1,36 @@
+.frequency {
+  margin: 48px 0 0 0;
+  @include media-max(768) {
+    margin: 35px 0 0 0;
+  }
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .date-picker {
+    margin: 71px 0 61px;
+    @include media-max(768) {
+      margin: 51px 0 36px 0;
+    }
+  }
+  &__radio {
+    margin: 67px 0 55px 0;
+    @include media-max(480) {
+      margin: 51px 0 31px 0;
+    }
+  }
+  &__date-input {
+    margin-bottom: 68px;
+    @include media-max(480) {
+      margin-bottom: 48px;
+    }
+  }
+  &__day-picker {
+    margin-bottom: 118px;
+    @include media-max(768) {
+      margin-bottom: 26px;
+    }
+  }
+}

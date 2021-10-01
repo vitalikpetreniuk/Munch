@@ -1,0 +1,13 @@
+.title {
+  &__container {
+    display: flex;
+  }
+  h1 {
+    margin: 124px auto 0 auto;
+    font-weight: 700;
+    font-size: 28px;
+    @include media-max(991) {
+      margin-top: 35px;
+    }
+  }
+}
