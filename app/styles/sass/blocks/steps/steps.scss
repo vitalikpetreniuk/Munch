@@ -2,6 +2,7 @@
   margin-top: 34px;
   @include media-max(991) {
     display: none;
+    margin-top: 25px;
   }
   &__container {}
   &__list {
